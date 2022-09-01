@@ -1,0 +1,408 @@
+body {
+  font-family: sans-serif;
+}
+body a {
+  color: white;
+}
+body a:hover {
+  text-decoration: none;
+}
+
+.navbar-align {
+  padding: 0;
+}
+#contact-anchor {
+  padding: 20px 7px;
+  border-radius: 0;
+  color: white;
+}
+
+.text-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  display: flex;
+  width: 100%;
+}
+
+.pm {
+  display: flex;
+  justify-content: left;
+  width: 50%;
+}
+
+.english {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+
+#carouselExampleFade {
+  width: 100%;
+}
+
+div.absolute {
+  color: white;
+  position: absolute;
+  justify-content: center;
+  top: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-left: 15px;
+}
+
+#heading {
+  font-size: 77px;
+}
+#head3 {
+  font-size: 34px;
+  font-weight: lighter;
+}
+
+#collapsibleNavId a {
+  color: black;
+}
+#collapsibleNavId a:hover,
+#collapsibleNavId button:hover {
+  color: #008d4e;
+}
+#collapsibleNavId button:hover {
+  background-color: white;
+}
+
+#collapsibleNavId ul {
+  float: right;
+}
+
+.content-between {
+  padding: 14% 0;
+  text-align: center;
+}
+
+.carousel-inner {
+  height: 1000px;
+  background-color: #d6d4d4;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+}
+
+.headings {
+  height: 350px;
+
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 0;
+}
+#sub-head {
+  color: #008d4e;
+  font-weight: lighter;
+  font-size: 25px;
+}
+#sub-head1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+.cards {
+  color: white;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+}
+
+#card1 {
+  float: left;
+  background-color: #17764a;
+}
+#card2,
+#card3 {
+  float: left;
+  margin-left: 3em;
+}
+
+#headings-cards {
+  font-weight: bold;
+}
+
+#cardshead {
+  color: #008d4e;
+  font-size: 20px;
+}
+#card-p {
+  font-size: 14px;
+}
+#card2 {
+  background-color: #64aa31;
+}
+#card3 {
+  background-color: #c6801d;
+}
+#card1,
+#card2,
+#card3 {
+  padding: 1em;
+  border-radius: 5px;
+}
+#card1 h4,
+#card2 h4,
+#card3 h4 {
+  font-size: 20px;
+  padding: 1em;
+  font-weight: lighter;
+  border-bottom: white 1px solid;
+}
+#card1 p,
+#card2 p,
+#card3 p {
+  font-size: 15px;
+  display: inline-block;
+}
+#card1 a,
+#card2 a,
+#card3 a {
+  color: rgb(168, 167, 167);
+  font-size: 15px;
+  background-color: rgb(69, 69, 69);
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+#card1 i,
+#card2 i,
+#card3 i {
+  margin-left: 10px;
+}
+#button {
+  justify-content: center;
+  display: flex;
+}
+#button a:hover {
+  color: white;
+  background-color: black;
+}
+
+.body-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  width: 90%;
+
+  justify-content: center;
+}
+.cont1,
+.cont2 {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+.card-columns {
+  display: flex;
+  justify-content: center;
+}
+
+.serv1,
+.serv2,
+.serv3 {
+  padding: 10px;
+}
+
+.serv1 img,
+.serv2 img,
+.serv3 img {
+  float: left;
+  padding: 15px;
+  padding-bottom: 90px;
+}
+
+#button a {
+  background-color: #c8cbcb;
+  color: rgb(118, 120, 120);
+  border-radius: 20px;
+  display: block;
+}
+
+#client1,
+#client2,
+#client3 {
+  text-align: center;
+  padding: 1em;
+  border-style: none;
+  box-shadow: 0px 0px 10px #aaaaaa;
+}
+
+#client-img {
+  width: 100px;
+  height: 100px;
+  margin: 2em 0;
+  margin-left: 20px;
+  border-radius: 100em;
+}
+
+.ellipsis {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.card-deck {
+  display: flex;
+
+  justify-content: center;
+}
+
+.card-deck .slick-arrow::before {
+  color: black;
+}
+
+.card-deck .card {
+  width: 100px;
+  height: 100px;
+  display: block;
+  justify-content: center;
+  padding: 20px;
+  border-style: none;
+  box-shadow: 0px 0px 10px #aaaaaa;
+}
+
+.card-deck .card img {
+  width: 150px;
+  justify-content: center;
+}
+
+#arrow {
+  margin-top: 40px;
+}
+
+.forms,
+.mail {
+  box-shadow: 0px 0px 10px #818080;
+  background-color: white;
+}
+
+#email-form,
+#contact-form {
+  margin-top: 12px;
+}
+
+.form-s {
+  position: relative;
+}
+
+#submit {
+  float: right;
+  margin-top: 5px;
+  border-radius: 50px;
+  padding: 5px 25px;
+}
+
+.mail {
+  position: absolute;
+  padding: 20px;
+  top: 0%;
+  left: 0%;
+  margin-top: -50px;
+  margin-left: -50px;
+  border-radius: 50px;
+}
+
+.footer {
+  background-image: url("images/footerimage.png");
+  margin-top: -200px;
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  background-color: #115e36;
+}
+
+.footer-note {
+  height: 25px;
+  color: white;
+  display: flex;
+  width: 55%;
+  justify-content: center;
+  background-color: #115e36;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  display: inline;
+  float: left;
+  margin-top: 250px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-1 h4,
+.card-2 h4,
+.card-3 h4,
+.card-4 h4 {
+  font-size: 30px;
+  margin-left: 25px;
+}
+form textarea {
+  resize: none;
+}
+
+#ul {
+  list-style: none;
+}
+.card-container ul {
+  margin-top: 40px;
+}
+
+.card-container a:hover {
+  color: white;
+}
+
+.card-container ul li {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.foot-note {
+  background-color: #0c4427;
+  height: 42px;
+  margin-top: -42px;
+  opacity: 0.6;
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+.foot-note p {
+  margin-left: 70px;
+  padding: 12px;
+  font-size: 12px;
+}
+
+.logo-image {
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  margin-top: -80px;
+  right: 0;
+}
+.logo-image img {
+  width: 80px;
+  opacity: 1;
+}
