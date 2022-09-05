@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+
+html {
+  box-sizing: border-box;
+  background-color: #e2dadd;
+  font-family: "Cabin", sans-serif;
+}
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+#root {
+  text-align: center;
+}
+
+#root h2 {
+  font-size: 2em;
+  margin: 0.67em 0 0.15em 0;
+}
+
+.rules {
+  margin: 0.33em auto 0.8em auto;
+}
+
+.rules h3 {
+  font-size: 1.05em;
+  margin: 5px 0 0 0;
+  color: #333;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.rules ul li {
+  list-style: none;
+}
+
+.rules p {
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  margin: 5px 1em;
+  font-size: 0.92em;
+  color: #666;
+}
+
+.colors .color-holder,
+.board .peg {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #777;
+  margin-right: 8px;
+  border-radius: 21px;
+  cursor: pointer;
+  background-color: #f0eaed;
+}
+
+.colors .red,
+.circles .red {
+  background-color: #fd002e;
+}
+
+.colors .green,
+.circles .green {
+  background-color: #1e3c06;
+}
+
+.colors .cyan,
+.circles .cyan {
+  background-color: #40ebfb;
+}
+
+.colors .blue,
+.circles .blue {
+  background-color: #000dff;
+}
+
+.colors .yellow,
+.circles .yellow {
+  background-color: #ffee00;
+}
+
+.colors .magenda,
+.circles .magenda {
+  background-color: #e100ff;
+}
+
+.colors .active {
+  border: 2px solid black;
+  border-radius: 21px;
+}
+
+.board {
+  margin-top: 15px;
+}
+
+.board div {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+
+.board .circles {
+  margin-left: 5px;
+}
+
+.board .ok-button {
+  font-size: 0.9em;
+  padding: 16px 0;
+  color: #33aa88;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.board .ok-button.disabled {
+  color: #ccc0c6;
+  cursor: default;
+}
+
+.board .ok-button.hidden {
+  display: none;
+  cursor: default;
+}
+
+.board .row {
+  display: block;
+  border: 1px solid #d0cacd;
+  margin: 0 auto 3px auto;
+  max-width: 360px;
+}
+
+.board .row.active {
+  border: 2px solid #bbaaaa;
+  background-color: #fff9fc;
+}
+
+.board .hints {
+  margin-right: 0;
+}
+
+.board .hints span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #777;
+  background-color: #f0eaed;
+  margin: 15px 2px;
+  font-size: 0.75em;
+  padding: 0;
+}
+
+.board .hints span.exact {
+  background-color: #000000;
+}
+
+.board .hints span.partial {
+  background-color: #dd2222;
+}
+
+.solution p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.solution .hidden {
+  display: none;
+}
+
+.solution .color-holder {
+  cursor: default;
+}
+
+.solution a {
+  color: #338855;
+  font-size: 1.1em;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.msg {
+  margin: 0.5em auto;
+}
